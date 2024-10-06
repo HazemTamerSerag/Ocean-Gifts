@@ -1,0 +1,13 @@
+<!-- res/drawable/border_rectangle.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" /> <!-- Background color, or make it transparent -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/white" /> <!-- Border color and width -->
+    <corners android:radius="8dp" /> <!-- Rounded corners (optional) -->
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+</shape>

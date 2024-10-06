@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ocean Gifts</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ocean gifts</string>
+    <string name="nav_header_subtitle">For NASA</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_resources">Resources</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_about">About</string>
+    <string name="menu_articles">Articles</string>
+
+    <string name="animal_description">save the animal</string>
+    <string name="desJupter">"Relationship between Planetary Discovering and Oceanography"</string>
+    <string name="jupter">Callisto</string>
+    <string name="ganymede_is_the_largest_moon">Ganymede is the largest moon in our solar system</string>
+    <string name="genymade">genymada</string>
+    <string name="hydro">hydrothermal Vent</string>
+    <string name="hydrodeas">hydrothermal vent is a fissure on the seafloor from which geothermally heated water issues.</string>
+
+    <string name="BiolOcean">"Biological Oceanography"</string>
+    <string name="BiolDisc">"Tube worms are marine invertebrates that live in tubes. They are found in a variety of habitats"</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aboutphoto"
+        tools:context=".ui.resources.ResourcesFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TVFA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NASA Toolkit: Ocean Worlds"
+                android:background="@drawable/border_rectangle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="275dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="16dp" />
+            <TextView
+                android:id="@+id/TVSA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NASA Special: Ocean Worlds"
+                android:background="@drawable/border_rectangle"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TVFA"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/TVTA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ocean Worlds Website"
+                android:background="@drawable/border_rectangle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TVSA"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="16dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</layout>
